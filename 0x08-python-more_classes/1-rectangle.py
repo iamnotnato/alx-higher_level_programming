@@ -4,11 +4,11 @@
 class Rectangle():
     """rectangle class for storing rectangle data
     """
-    def __init__(self, height=0 , width=0):
+    def __init__(self, width=0, height=0):
         """ instantiation method for object creation
         """
-        self.height = height
         self.width = width
+        self.height = height
 
     @property
     def height(self):
