@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-"""
-Python script that shows the last 10 commits of a repository
+"""Python script that shows the last 10 commits of a repository
 in GitHub
 """
 from requests import get, auth
 import sys
-
 
 if __name__ == "__main__":
     try:
@@ -17,5 +15,5 @@ if __name__ == "__main__":
         for i in range(0, 10):
             print("{}: {}".format(json_o[i].get('sha'), json_o[i].get('commit')
                                   .get('author').get('name')))
-    except:
+    except ValueError as invalid_json:
         pass
