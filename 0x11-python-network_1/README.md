@@ -1,3 +1,5 @@
+Ubuntu 20.04 with Python and Flask - with a web server running for project Network #1
+
 General
 Allowed editors: vi, vim, emacs
 All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
