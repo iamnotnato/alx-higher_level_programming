@@ -1,22 +1,18 @@
 #!/usr/bin/node
-/* module request */
 const request = require('request');
-const page = process.argv[2];
-const dicti = {};
-request(page, function (error, status, body) {
-  if (error) {
-    console.error(error);
-  } else {
-    const lista = JSON.parse(body);
-    for (const task of Object.values(lista)) {
-      if (task.completed) {
-        if (dicti[task.userId]) {
-          dicti[task.userId] += 1;
-        } else {
-          dicti[task.userId] = 1;
+const url = process.argv[2];
+request.get(url, (err, res, body) {
+  if (err == null) {
+    const resp = {};
+    const json = JSON.parse(body);
+    for (let i = 0; i < json.length; i++) {
+      if (json[i].completed === true) {
+        if (resp[json[i].userId] === undefined) {
+          resp[json[i].userId] = 0;
         }
+        resp[json[i].userId]++;
       }
     }
-    console.log(dicti);
+    console.log(resp);
   }
 });
