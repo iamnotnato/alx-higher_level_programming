@@ -1,25 +1,21 @@
 #!/usr/bin/node
-const process = require('process');
 const request = require('request');
-
-let url = process.argv[2];
-let data;
-let collected = {};
-
+const url = process.argv[2];
+const list = {};
 request(url, function (error, response, body) {
-  if (error != null) {
+  if (error) {
     console.log(error);
   } else {
-    data = JSON.parse(body);
-    data.forEach(function (result) {
-      if (result['completed'] === true) {
-        let userid = result['userId'];
-        if (!(userid in collected)) {
-          collected[userid] = 0;
+    const abc = JSON.parse(body);
+    abc.forEach(function (item, index, array) {
+      if (item.completed) {
+        if (list[item.userId] === undefined) {
+          list[item.userId] = 1;
+        } else {
+          list[item.userId]++;
         }
-        collected[userid] += 1;
       }
     });
-    console.log(collected);
+    console.log(list);
   }
 });
