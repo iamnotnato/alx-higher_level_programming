@@ -1,16 +1,8 @@
-$('document').ready(() => {
-  const translate = (code) => {
-    $.ajax({
-      url: `https://www.fourtonfish.com/hellosalut/hello/`,
-      dataType: 'json',
-      success: (result) => {
-        $('DIV#hello').text(result.hello);
-      }
+$('document').ready(function () {
+  const url = 'https://www.fourtonfish.com/hellosalut/?';
+  $('INPUT#btn_translate').click(function () {
+    $.get(url + $.param({ lang: $('INPUT#language_code').val() }), function (data) {
+      $('DIV#hello').html(data.hello);
     });
-  };
-
-  $('INPUT#btn_translate').on('click', () => {
-    const text = $('INPUT#language_code').val();
-    translate(text);
   });
 });
