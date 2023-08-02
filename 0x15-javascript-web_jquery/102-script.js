@@ -1,7 +1,7 @@
 $('document').ready(() => {
   const translate = (code) => {
     $.ajax({
-      url: `https://stefanbohacek.com/hellosalut/?lang=${code}`,
+      url: `https://www.fourtonfish.com/hellosalut/hello/`,
       dataType: 'json',
       success: (result) => {
         $('DIV#hello').text(result.hello);
