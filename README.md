@@ -1,10 +1,10 @@
-> 🚧 **Project :** alx-low_level_programming
+> 🚧 **Project :** alx-higher_level_programming
 
 <br>
 
 <div>
   <a href="https://github.com/iamnotnato/alx-higher_level_programming">
-    <img src="https://github.com/iamnotnato/alx-higher_level_programming/blob/master/images/py.png" alt="Logo" width="100" height="100">
+    <img src="https://github.com/iamnotnato/alx-higher_level_programming/blob/main/images/py.png" alt="Logo" width="100" height="100">
   </a>
 </div>
 
