@@ -9,7 +9,7 @@
 </div>
 
 <div>
- <a href=https://itechnolabs.ca/python-programming-language-an-ideal-for-web-application-development/ > Image credit </a>
+ <a href=https://itechnolabs.ca/python-programming-language-an-ideal-for-web-application-development/ >Image credit</a>
 </div>
 <br>
 
