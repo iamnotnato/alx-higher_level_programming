@@ -8,8 +8,9 @@
   </a>
 </div>
 
-> Image credit = https://itechnolabs.ca/python-programming-language-an-ideal-for-web-application-development/
-
+<div>
+ <a href=https://itechnolabs.ca/python-programming-language-an-ideal-for-web-application-development/ > Image credit </a>
+</div>
 <br>
 
 > 📝 **Summary:**
