@@ -7,7 +7,9 @@
     <img src="https://github.com/iamnotnato/alx-higher_level_programming/blob/main/images/py.png" alt="Logo" width="300" height="300">
   </a>
 </div>
-> Image credit = **https://itechnolabs.ca/python-programming-language-an-ideal-for-web-application-development/
+
+> Image credit = https://itechnolabs.ca/python-programming-language-an-ideal-for-web-application-development/
+
 <br>
 
 > 📝 **Summary:**
