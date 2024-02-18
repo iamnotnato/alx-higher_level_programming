@@ -71,3 +71,51 @@
 | 20 | [0x14. C - Bit manipulation](./0x14-bit_manipulation)                                |
 | 21 | [0x15. C - File I/O](./0x15-file_io)                                                 |
 | 22 | [0x16. C - Simple Shell](https://github.com/iamnotnato/simple_shell)                 |
+
+
+## ALX Higher Level Programming Project
+
+### Introduction
+This repository contains solutions to the Higher Level Programming project as part of the ALX Africa Software Engineering training program. The primary purpose of this project is to provide a solid foundation in programming fundamentals, covering topics such as object-oriented programming, data structures, and algorithms.
+
+### Features
+- Comprehensive coverage of programming concepts in C
+- Solution to various programming problems
+- Demonstrations of essential data structures (e.g., arrays, linked lists, queues)
+- Implementation of algorithms for sorting, searching, and other common operations
+- Sample programs to showcase real-world applications
+
+### Technologies and Tools
+- Programming Language: C
+- Development Environment: Online Integrated Development Environment (IDE)
+- Version Control System: Git
+
+### Prerequisites
+- Basic understanding of programming concepts
+- Familiarity with the C programming language
+- Access to an online IDE or local development environment
+
+### Getting Started
+1. **Git Clone**: Clone this repository to your local machine using the following command:
+```
+git clone https://github.com/iamnotnato/alx-higher_level_programming.git
+```
+2. **Development Environment**: Open the cloned repository in your preferred online or local IDE.
+3. **Build**: Navigate to the specific assignment folder and follow the instructions provided in the README.md file.
+
+### Contribution Guidelines
+- Fork this repository
+- Create a new branch for your work
+- Make your changes and commit them
+- Submit a pull request for review
+- Please adhere to the code style and conventions followed in the project
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+### Contact
+
+For any questions or support, please contact the maintainer through [GitHub](https://github.com/iamnotnato).
+
+### Conclusion
+This ALX Higher Level Programming project provides a structured learning path and practical examples to enhance your programming skills. By completing the assignments and exploring the solutions, you will gain a solid understanding of foundational programming concepts and be well-equipped for further development.
